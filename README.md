@@ -1,12 +1,19 @@
 # Android Instagram Connector
+# fork
 Android Instagram Connector: use Instagram API
 
 ## How Use
 Edit your build.gradle file with:
 
 ```
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+
 dependencies {
-    compile 'eu.marcocattaneo.androidinstagramconnector:android-instagram-connector:1.3.2'
+    compile 'com.github.maxim-drobonoh:android-instagram-connector:v1.3.3'
 }
 ```
 

@@ -1,5 +1,4 @@
 # Android Instagram Connector
-# fork
 Android Instagram Connector: use Instagram API
 
 ## How Use

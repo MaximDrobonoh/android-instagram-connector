@@ -15,7 +15,7 @@ public class AuthenticationDialog extends Dialog {
     }
 
     private AuthenticationDialog(Activity activity, String url, String urlCallback) {
-        super(activity);
+        super(activity, android.R.style.Theme_NoTitleBar_Fullscreen);
         this.mUrl = url;
         this.mUrlCallback = urlCallback;
     }
@@ -52,6 +52,7 @@ public class AuthenticationDialog extends Dialog {
 
     /**
      * Pass callback interface
+     *
      * @param onHttpCallback
      */
     public void addOnHttpCallback(OnHttpCallback onHttpCallback) {
